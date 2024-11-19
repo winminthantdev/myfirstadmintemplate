@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admin Template</title>
+    <!-- fa icon -->
+    <link href="./assets/img/fav/favicon.png" rel="icon" type="favicon/png>" sizes="16x16" />
+
+    <!-- bootstrap css1 js1 -->
+    <link rel="stylesheet" href="./assets/libs/bootstrap-5.2.3-dist/css/bootstrap.min.css" type="text/css" />
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css" integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- jquery ui css1 js1 -->
+    <link rel="stylesheet" href="./assets/libs/jquery-ui-1.13.2.custom/jquery-ui.css" type="text/css" />
+
+    <!-- lightbox2 css1 js1 -->
+    <link rel="stylesheet" href="./assets/libs/lightbox2-dev/dist/css/lightbox.min.css" type="text/css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <div class="wrappers">
+      <div class="navbar navbar-expand-md">
+        <button type="button" class="navbar-toggler ms-auto mb-2 me-2" data-bs-toggle="collapse" data-bs-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Start Nav Menu  -->
+        <div id="nav">
+          <div class="container-fluid">
+            <div class="row">
+              <!-- Start Left Side Bar  -->
+              <div class="col-lg-2 col-md-3 fixed-top vh-100 leftsidebars">
+                <ul class="navbar-nav flex-column h6">
+                  <li class="navbar-item pt-3">
+                    <img src="./assets/img/fav/favicon.png" width="60px" alt="sitelogo" />
+                    <span class="h4 text-primary">Edaca</span>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-flag me-2"></i>Reports <i class="fas fa-angle-right mores"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fab fa-affiliatetheme me-2"></i>Affiliate <i class="fas fa-angle-right mores"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-users me-2"></i>Users <i class="fas fa-angle-right mores"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-money-bill-alt me-2"></i>Offline Payment <i class="fas fa-angle-right mores"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-comments me-2"></i>Message</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-newspaper me-2"></i>Newsletter<i class="fas fa-angle-right mores"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-address-book me-2"></i>Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fab fa-blogger-b me-2"></i>Blog<i class="fas fa-angle-right mores"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-headset me-2"></i>Cusotmer Support<i class="fas fa-angle-right mores"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-puzzle-piece me-2"></i>Addons</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks currents"><i class="fab fa-themeco me-2"></i>Themes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-cog me-2"></i>Setting<i class="fas fa-angle-right mores"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javasrcipt:void(0);" class="nav-link p-3 mb-2 rounded-1 sidebarlinks"><i class="fas fa-user-cog me-2"></i>Manage Profile</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Left Side Bar  -->
+
+              <!-- Start Top Navbar  -->
+              <div class="col-lg-10 col-md-9 fixed-top ms-auto topnavbars">
+                <div class="row">
+                  <div class="navbar navbar-expand bg-light shadow">
+                    <div class="me-auto">
+                      <h4 class="ms-3">Themes Settings</h4>
+                    </div>
+                    <ul class="navbar-nav gap-2 me-5">
+                      <li class="nav-item">
+                        <div class="topnav-icons rounded-circle">
+                          <a href="javcascript:void(0);" class="nav-link"><i class="fas fa-globe h6"></i><span class="badge bg-danger ms-0 badges"></span></a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="topnav-icons rounded-circle">
+                          <a href="javcascript:void(0);" class="nav-link"><i class="far fa-star h6"></i></i><span class="badge bg-danger ms-0 badges"></span></a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="topnav-icons rounded-circle">
+                          <a href="javcascript:void(0);" class="nav-link"><i class="fas fa-bell h6"></i><span class="badge bg-danger ms-0 badges"></span></a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="topnav-icons rounded-circle">
+                          <a href="javcascript:void(0);" class="nav-link"><i class="fas fa-question h6"></i><span class="badge bg-danger ms-0 badges"></span></a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="topnav-icons rounded-circle">
+                          <a href="javcascript:void(0);" class="nav-link"><i class="fas fa-bell h6"></i><span class="badge bg-danger ms-0 badges">9+</span></a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="topnav-icons rounded-circle">
+                          <a href="javcascript:void(0);" class="nav-link p-0"><img src="./assets/img/users/user1.jpg" class="rounded-circle" width="45" alt="user1" /></a>
+                        </div>
+                      </li>
+                    </ul>
+                    <!-- start mobile close btn  -->
+                    <button type="button" class="close-btns" data-bs-toggle="collapse" data-bs-target="#nav"><i class="fas fa-times"></i></button>
+                    <!-- end mobile close btn  -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Top Navbar  -->
+            </div>
+          </div>
+        </div>
+        <!-- End Nav Menu  -->
+      </div>
+    </div>
+
+    <!-- End Navbar -->
+
+    <!-- Start Content Area  -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-10 col-md-9 ms-auto">
+            <!-- Start Show Up Themes  -->
+            <div class="row pt-md-5 mt-md-3 mx-2">
+              <div class="card">
+                <div class="card-header bg-white">
+                  <div class="row">
+                    <h5 class="col-md-4 my-auto">Showed Up Themes</h5>
+                    <div class="col-md-8">
+                      <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-primary me-2"><i class="fas fa-download me-2"></i><span>Upload New Themes</span></button>
+                        <button type="button" class="btn btn-outline-primary"><i class="fas fa-download me-2"></i><span>Buy New Themes</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+
+                    <div class="col-lg-3 col-md-6 mb-2"> 
+                      <div class="card shadow secondarys">
+                        <div class="card-body">
+                          <div class="row px-2">
+                            <div class="col-auto showupthemes-icons">
+                              <div>
+                                <img src="https://play-lh.googleusercontent.com/bijRKo3fKdVkIx7HEoMp5o_Zk_CHYsq_hIcN32Mo1xqBbt_YDZNcCBGNXo6mlL6Ruw" width="30" alt="Liner" />
+                              </div>
+                            </div>
+                              <h6 class="col">Liner: AI Copilot For Web & YouTube & PDF</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-2">
+                      <div class="card shadow secondarys">
+                        <div class="card-body">
+                          <div class="row px-2">
+                            <div class="col-auto showupthemes-icons">
+                              <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0feh7aCHG5yTSrHiPurkrq5JdApGIGzfUQ&s" width="30" alt="Screen Shader" />
+                              </div>
+                            </div>
+                              <h6 class="col">Screen Shader | Smart Screen Tinting</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-2">
+                      <div class="card shadow secondarys">
+                        <div class="card-body">
+                          <div class="row px-2">
+                            <div class="col-auto showupthemes-icons">
+                              <div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZXd30AHHoEdlcDFBFzo3sF821qZoz4zvxg&s" width="30" alt="Shazam" />
+                              </div>
+                            </div>
+                              <h6 class="col">Shazam: Find Soung Names From Your Borwser</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-2">
+                      <div class="card shadow secondarys">
+                        <div class="card-body">
+                          <div class="row px-2">
+                            <div class="col-auto showupthemes-icons">
+                              <div>
+                                <img src="https://logowik.com/content/uploads/images/hola-vpn8602.jpg" width="30" alt="Hola VPN" />
+                              </div>
+                            </div>
+                              <h6 class="col">Hola VPN - Your Website Unblocker</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                    
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Show Up Themes  -->
+
+            <!-- Start Theme Area  -->
+             <div class="row">
+              <h3 class="my-4">Installed Themes</h3>
+
+              <div class="col-lg-4 col-md-6 mb-3">
+                <div class="card rounded-1">
+                  <div class="card-body p-0">
+                    <div class="rounded-2 imgs">
+                      <img src="https://freebiesui.com/wp-content/uploads/2020/07/dark-mode-desktop-ui-daily-media.jpg" class="rounded-2" width="100%" height="329" alt="">
+                    </div>
+                    <h5 class="px-3 mt-2">Default Theme: Standard Layout</h5>
+                    <div class="row px-4 py-2">
+                     <button type="button" class="d-grid btn btn-primary actives">Active Theme</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-3">
+                <div class="card rounded-1">
+                  <div class="card-body p-0">
+                    <div class="rounded-2 imgs">
+                      <img src="https://themes.getbootstrap.com/wp-content/uploads/2018/06/purpose-website-ui-kit-v2.0.0-cover-1200x900.png" class="rounded-2" width="100%" height="329" alt="">
+                    </div>
+                    <h5 class="px-3 mt-2">Default Theme: Standard Layout</h5>
+                    <div class="row px-4 py-2">
+                     <button type="button" class="d-grid btn btn-outline-primary">Turn On Theme</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-3">
+                <div class="card rounded-1">
+                  <div class="card-body p-0">
+                    <div class="rounded-2 imgs">
+                      <img src="https://uizard.io/static/838de7ec6ff0b3f41091558c26a54609/a8e47/ba6072e6584edee2d8ff0212aac4279c05916363-1440x835.png" class="rounded-2" width="100%"  height="329" alt="">
+                    </div>
+                    <h5 class="px-3 mt-2">Default Theme: Standard Layout</h5>
+                    <div class="row px-4 py-2">
+                     <button type="button" class="d-grid btn btn-outline-primary">Turn On Theme</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-3">
+                <div class="card rounded-1">
+                  <div class="card-body p-0">
+                    <div class="rounded-2 imgs">
+                      <img src="https://uizard.io/static/d772ade6fb8ac509bed92fde06da2c7c/a8e47/f63592545a83aefe4e451166e110bea43608c1a8-1440x835.png" class="rounded-2" width="100%" height="329" alt="">
+                    </div>
+                    <h5 class="px-3 mt-2">Default Theme: Standard Layout</h5>
+                    <div class="row px-4 py-2">
+                     <button type="button" class="d-grid btn btn-outline-primary">Turn On Theme</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-3">
+                <div class="card rounded-1">
+                  <div class="card-body p-0">
+                    <div class="rounded-2 imgs">
+                      <img src="https://market-resized.envatousercontent.com/previews/files/458159476/04_novo_preview4.jpg?w=590&h=300&cf_fit=crop&crop=top&format=auto&q=85&s=ce5f05f4a3a27b8c000865b028a9262dee33ae19b0db11c6491e637db1406c28" class="rounded-2" width="100%" height="329" alt="">
+                    </div>
+                    <h5 class="px-3 mt-2">Default Theme: Standard Layout</h5>
+                    <div class="row px-4 py-2">
+                     <button type="button" class="d-grid btn btn-outline-primary">Turn On Theme</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-3">
+                <div class="card rounded-1">
+                  <div class="card-body p-0">
+                    <div class="rounded-2 imgs">
+                      <img src="https://themefisher.com/blog/focus.webp" class="rounded-2" width="100%" height="329" alt="">
+                    </div>
+                    <h5 class="px-3 mt-2">Default Theme: Standard Layout</h5>
+                    <div class="row px-4 py-2">
+                     <button type="button" class="d-grid btn btn-outline-primary">Turn On Theme</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+             </div>
+            <!-- End Theme Area  -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Content Area  -->
+
+    <!-- bootsrtap css1 js1 -->
+    <script src="./assets/libs/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <!-- jquery js1 -->
+    <script src="./assets/libs/jquery/jquery-3.7.1.min.js"></script>
+    <!-- Chart js js1  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Justgage js1 -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/justgage/1.2.9/justgage.min.js"></script>
+    <!-- google chart js1  -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- jquery ui css1 js1 -->
+    <script src="./assets/libs/jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+    <!-- lightbox2 css1 js1 -->
+    <script src="./assets/libs/lightbox2-dev/dist/js/lightbox.min.js"></script>
+    <!-- custom js -->
+    <script src="./js/app.js" type="text/javascript"></script>
+  </body>
+</html>
